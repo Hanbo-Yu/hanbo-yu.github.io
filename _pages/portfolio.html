@@ -1,14 +1,36 @@
 ---
 layout: archive
-title: "Portfolio"
-permalink: /portfolio/
+title: ""
+permalink: /services-awards/
+redirect_from:
+  - /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+{% assign service_items_primary = site.services | where: "category", "service" %}
+{% assign service_items_alt = site.services | where: "category", "services" %}
+{% assign service_items = service_items_primary | concat: service_items_alt | sort: "order" %}
 
-{% for post in site.portfolio %}
+{% assign award_items_primary = site.services | where: "category", "award" %}
+{% assign award_items_alt = site.services | where: "category", "awards" %}
+{% assign award_items = award_items_primary | concat: award_items_alt | sort: "order" %}
+
+{% if service_items.size > 0 %}
+<h2>Services</h2>
+<hr class="archive__section-split">
+{% for post in service_items %}
   {% include archive-single.html %}
 {% endfor %}
+{% endif %}
+
+{% if award_items.size > 0 %}
+<h2>Awards</h2>
+<hr class="archive__section-split">
+{% for post in award_items %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endif %}
+
 

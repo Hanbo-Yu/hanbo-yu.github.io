@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Hanbo Yu"
+site_theme               : "dirt" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "Hanbo Yu's Homepage"
 title_separator          : "-"
 name                     : &name "Hanbo Yu"
 description              : &description "PhD Student"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Hanbo Yu"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student"
+  bio              : "PhD Student @ McGill"
   location         : "Montreal, Canada"
   employer         : "McGill University"
   uri              : # URL
@@ -227,27 +227,27 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  services:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  # # _posts
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
   - scope:
       path: ""
@@ -273,23 +273,23 @@ defaults:
       author_profile: true
       share: false
       comments: false
-  # _portfolio
+  # _services
   - scope:
       path: ""
-      type: portfolio
+      type: services
     values:
       layout: single
       author_profile: false
       share: false
-      comment: false
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: false
-      share: false
+      comments: false
+  # # _talks
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: false
+  #     share: false
 
 
 # Sass/SCSS
