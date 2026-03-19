@@ -1,14 +1,17 @@
 ---
-title: "Teaching experience 1"
+title: "Queen's University"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Teaching Assistant"
+# permalink: /teaching/2015-spring-teaching-1
+venue: "School of Computing"
+# date: 2025-09-01
+location: "Kingston, Canada"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+CISC101 - Elements of Computing Science, Summer 2022 & Summer 2023 
+CISC221 - Computer Architecture, Fall 2019
+CISC322 - Software Architecture, Winter 2021 & Winter 2022
+CISC365 - Algorithm I, Fall 2020
 
 Heading 1
 ======
