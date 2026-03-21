@@ -2,7 +2,7 @@
 title: "Securing Automotive Data Flow: A Survey of Telematics Security Across Intra-Vehicle, V2X, and Cloud Layers"
 collection: publications
 category: manuscripts
-publication_status: Under review
+publication_status: Published
 permalink: /publication/a2gen
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2025-10-01
