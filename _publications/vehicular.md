@@ -7,6 +7,6 @@ permalink: /publication/a2gen
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2025-10-01
 venue: 'Elsevier Vehicular Communications'
-# paperurl: 'https://academicpages.github.io/files/paper2.pdf'
+paperurl: 'https://doi.org/10.1016/j.vehcom.2026.101024'
 citation: 'J. Wu, B. C. M. Fung, N. Stakhanova, F. Khan, <strong>H. Yu</strong>'
 ---
