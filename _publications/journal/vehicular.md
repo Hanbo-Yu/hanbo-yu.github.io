@@ -5,7 +5,7 @@ category: manuscripts
 publication_status: Published
 permalink: /publication/journal/vehicular
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-order: 3
+order: 4
 date: 2026-02-01
 venue: 'Elsevier Vehicular Communications'
 paperurl: 'https://doi.org/10.1016/j.vehcom.2026.101024'
